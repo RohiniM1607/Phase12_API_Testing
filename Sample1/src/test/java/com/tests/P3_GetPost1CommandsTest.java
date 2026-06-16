@@ -12,7 +12,7 @@ public class P3_GetPost1CommandsTest {
 	  Response response = RestAssured.given().pathParam("id", 1)
 			  .when().get("https://jsonplaceholder.typicode.com/posts/{id}/comments");
 	  Assert.assertEquals(response.getStatusCode(), 200);
-	  System.out.println(response.jsonPath().getList("id"));
+	  System.out.println(response.jsonPath().getInt("[0].id"));
 	  System.out.println(response.asPrettyString());
   }
 }

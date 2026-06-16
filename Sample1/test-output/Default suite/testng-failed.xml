@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tests.DeleteTest">
+      <class name="com.insomnia_demo.Delete_Trainee">
         <methods>
-          <include name="deleteTest"/>
+          <include name="deleteTrainee"/>
         </methods>
-      </class> <!-- com.tests.DeleteTest -->
+      </class> <!-- com.insomnia_demo.Delete_Trainee -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

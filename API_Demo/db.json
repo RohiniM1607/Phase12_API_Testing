@@ -1,0 +1,21 @@
+{
+  "trainees": [
+    {
+      "name": "asfg",
+      "id": "27"
+    },
+    {
+      "name": "XYZ",
+      "email": "xyz@gmail.com",
+      "company": "HRM University",
+      "id": "28"
+    },
+    {
+      "name": "Hello",
+      "company": "Hello Tech",
+      "email": "hello@gmail.com",
+      "id": "7VUWZw7rnQU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
