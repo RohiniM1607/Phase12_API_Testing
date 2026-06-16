@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.tests.P4_GetCommentsPostID1Test"/>
+      <class name="com.tests.P3_GetPost1CommandsTest"/>
+      <class name="com.tests.SeleniumTest"/>
+      <class name="com.tests.P8_DeletePost"/>
+      <class name="com.tests.P7_PatchPost1"/>
+      <class name="com.tests.P1_GetPostTest"/>
+      <class name="com.tests.DeleteTest"/>
+      <class name="com.tests.CreateUserTest"/>
+      <class name="com.tests.ValidationTest"/>
+      <class name="com.tests.P2_GetPost1Test"/>
+      <class name="com.tests.P5_Post"/>
+      <class name="com.tests.GetUserTest"/>
+      <class name="com.tests.P6_PutPost1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
