@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class GetPostTest {
+public class P1_GetPostTest {
   @Test
   public void getPostTest() {
 	  Response response = RestAssured.given().when().get("https://jsonplaceholder.typicode.com/posts");

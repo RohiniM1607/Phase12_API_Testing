@@ -6,13 +6,13 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class GetPost1CommandsTest {
+public class P2_GetPost1Test {
   @Test
-  public void getPost1CommandsTest() {
+  public void getUser1Test() {
 	  Response response = RestAssured.given().pathParam("id", 1)
-			  .when().get("https://jsonplaceholder.typicode.com/posts/{id}/comments");
+			  .when().get("https://jsonplaceholder.typicode.com/posts/{id}");
 	  Assert.assertEquals(response.getStatusCode(), 200);
-	  System.out.println(response.jsonPath().getList("id"));
+	  Assert.assertEquals(response.jsonPath().getInt("id"), 1);
 	  System.out.println(response.asPrettyString());
   }
 }
