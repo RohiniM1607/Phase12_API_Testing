@@ -5,17 +5,26 @@
     <classes>
       <class name="com.tests.P4_GetCommentsPostID1Test"/>
       <class name="com.tests.P3_GetPost1CommandsTest"/>
+      <class name="com.insomnia_demo.Get_Trainee"/>
+      <class name="com.insomnia_demo.Patch_UpdateTrainee"/>
+      <class name="com.insomnia_demo.Post_ValidLogin"/>
+      <class name="com.insomnia_demo.Option_Trainee"/>
+      <class name="com.insomnia_demo.Put_UpdateTrainee"/>
       <class name="com.tests.SeleniumTest"/>
       <class name="com.tests.P8_DeletePost"/>
+      <class name="com.insomnia_demo.Get_InvalidTrainee"/>
       <class name="com.tests.P7_PatchPost1"/>
       <class name="com.tests.P1_GetPostTest"/>
-      <class name="com.tests.DeleteTest"/>
       <class name="com.tests.CreateUserTest"/>
+      <class name="com.tests.DeleteTest"/>
       <class name="com.tests.ValidationTest"/>
       <class name="com.tests.P2_GetPost1Test"/>
+      <class name="com.insomnia_demo.Post_InvalidLogin"/>
       <class name="com.tests.P5_Post"/>
+      <class name="com.insomnia_demo.Post_CreateTrainee"/>
       <class name="com.tests.GetUserTest"/>
       <class name="com.tests.P6_PutPost1"/>
+      <class name="com.insomnia_demo.Delete_Trainee"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
