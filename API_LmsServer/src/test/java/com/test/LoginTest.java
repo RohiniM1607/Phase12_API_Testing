@@ -19,7 +19,6 @@ public class LoginTest extends BaseTest{
 		Map<String, Object> payload = new HashMap<>();
 		payload.put("email", "sam@gmail.com");
 		payload.put("password", "123");
-
 		Response response = RestAssured.given().contentType(ContentType.JSON).body(payload).when().post("/user/login");
 		Assert.assertEquals(response.getStatusCode(), 201);
 		System.out.println(response.getBody().asPrettyString());

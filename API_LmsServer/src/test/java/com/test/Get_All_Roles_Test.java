@@ -16,7 +16,6 @@ public class Get_All_Roles_Test extends BaseTest {
                     .header("Authorization", "Bearer " + AuthenticationTest.token)
                     .when()
                     .get("/roles/getAll");
-
         response.prettyPrint();
         Assert.assertEquals(response.getStatusCode(), 200);
         System.out.println("Status Code: " + response.getStatusCode());
