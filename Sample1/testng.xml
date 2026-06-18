@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Insomnia Suite">
-    <test name="Sample1 Package">
-        <packages>
-            <package name="Sample1.*"/>
-        </packages>
-    </test>
 
-    <test name="Sample2 Package">
-        <packages>
-            <package name="Sample2.*"/>
-        </packages>
-    </test>
+	<listeners>
+		<listener class-name="io.qameta.allure.testng.AllureTestNg" />
+	</listeners>
+	<test name="Sample1 Package">
+		<packages>
+			<package name="com.insomnia_demo.*" />
+		</packages>
+	</test>
+
+	<test name="Sample2 Package">
+		<packages>
+			<package name="com.tests.*" />
+		</packages>
+	</test>
 </suite>
