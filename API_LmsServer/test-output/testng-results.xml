@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-17T23:04:11 IST" name="Suite" finished-at="2026-06-17T23:04:26 IST" duration-ms="15729">
+  <suite started-at="2026-06-18T07:54:31 IST" name="Suite" finished-at="2026-06-18T07:54:49 IST" duration-ms="18732">
     <groups>
     </groups>
-    <test started-at="2026-06-17T23:04:11 IST" name="Test" finished-at="2026-06-17T23:04:26 IST" duration-ms="15729">
+    <test started-at="2026-06-18T07:54:31 IST" name="Test" finished-at="2026-06-18T07:54:49 IST" duration-ms="18732">
       <class name="com.test.Get_All_Institution_Test">
-        <test-method signature="getAllInstitution()[pri:0, instance:com.test.Get_All_Institution_Test@30b19518]" started-at="2026-06-17T23:04:22 IST" name="getAllInstitution" finished-at="2026-06-17T23:04:23 IST" duration-ms="664" status="PASS">
+        <test-method signature="getAllInstitution()[pri:0, instance:com.test.Get_All_Institution_Test@5f3b9c57]" started-at="2026-06-18T07:54:44 IST" name="getAllInstitution" finished-at="2026-06-18T07:54:45 IST" duration-ms="1344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllInstitution -->
       </class> <!-- com.test.Get_All_Institution_Test -->
       <class name="com.test.Get_All_Roles_Test">
-        <test-method signature="get_all_roles()[pri:2, instance:com.test.Get_All_Roles_Test@77b14724]" started-at="2026-06-17T23:04:20 IST" name="get_all_roles" finished-at="2026-06-17T23:04:22 IST" depends-on-methods="com.test.AuthenticationTest.authenticationTest" duration-ms="1692" status="PASS">
+        <test-method signature="get_all_roles()[pri:2, instance:com.test.Get_All_Roles_Test@6a988392]" started-at="2026-06-18T07:54:42 IST" name="get_all_roles" finished-at="2026-06-18T07:54:44 IST" depends-on-methods="com.test.AuthenticationTest.authenticationTest" duration-ms="1981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get_all_roles -->
       </class> <!-- com.test.Get_All_Roles_Test -->
       <class name="com.test.AuthenticationTest">
-        <test-method signature="authenticationTest()[pri:1, instance:com.test.AuthenticationTest@7b84fcf8]" started-at="2026-06-17T23:04:15 IST" name="authenticationTest" finished-at="2026-06-17T23:04:20 IST" duration-ms="5395" status="PASS">
+        <test-method signature="authenticationTest()[pri:1, instance:com.test.AuthenticationTest@33352f32]" started-at="2026-06-18T07:54:36 IST" name="authenticationTest" finished-at="2026-06-18T07:54:42 IST" duration-ms="5806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- authenticationTest -->
       </class> <!-- com.test.AuthenticationTest -->
       <class name="com.test.HealthCheckTest">
-        <test-method signature="healthCheck()[pri:0, instance:com.test.HealthCheckTest@628c4ac0]" started-at="2026-06-17T23:04:11 IST" name="healthCheck" finished-at="2026-06-17T23:04:15 IST" duration-ms="4425" status="PASS">
+        <test-method signature="healthCheck()[pri:0, instance:com.test.HealthCheckTest@2552f2cb]" started-at="2026-06-18T07:54:31 IST" name="healthCheck" finished-at="2026-06-18T07:54:36 IST" duration-ms="5144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- healthCheck -->
       </class> <!-- com.test.HealthCheckTest -->
       <class name="com.test.LoginTest">
-        <test-method signature="loginTest()[pri:0, instance:com.test.LoginTest@363042d7]" started-at="2026-06-17T23:04:23 IST" name="loginTest" finished-at="2026-06-17T23:04:26 IST" duration-ms="3451" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.test.LoginTest@1e044120]" started-at="2026-06-18T07:54:45 IST" name="loginTest" finished-at="2026-06-18T07:54:49 IST" duration-ms="4194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
