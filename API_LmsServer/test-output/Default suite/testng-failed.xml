@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.Get_All_Roles_Test">
+      <class name="com.test.PartA_T2_LoginTest">
         <methods>
-          <include name="get_all_roles"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.test.Get_All_Roles_Test -->
+      </class> <!-- com.test.PartA_T2_LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class HealthCheckTest extends BaseTest{
+public class PartA_T1_HealthCheckTest extends BaseTest{
 	@Test
     public void healthCheck() {
         Response response = RestAssured.given().when().get("/");
