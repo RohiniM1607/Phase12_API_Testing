@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-21T18:42:35 IST" name="Default suite" finished-at="2026-06-21T18:42:44 IST" duration-ms="9572">
+  <suite started-at="2026-06-21T20:37:07 IST" name="Default suite" finished-at="2026-06-21T20:37:38 IST" duration-ms="31780">
     <groups>
     </groups>
-    <test started-at="2026-06-21T18:42:35 IST" name="Default test" finished-at="2026-06-21T18:42:44 IST" duration-ms="9572">
-      <class name="com.test.PartA_T2_LoginTest">
-        <test-method signature="loginTest()[pri:0, instance:com.test.PartA_T2_LoginTest@6c67e137]" started-at="2026-06-21T18:42:35 IST" name="loginTest" finished-at="2026-06-21T18:42:44 IST" duration-ms="9369" status="PASS">
+    <test started-at="2026-06-21T20:37:07 IST" name="Default test" finished-at="2026-06-21T20:37:38 IST" duration-ms="31780">
+      <class name="com.test.AuthenticationTest">
+        <test-method signature="authenticationTest()[pri:1, instance:com.test.AuthenticationTest@191ae03f]" started-at="2026-06-21T20:37:07 IST" name="authenticationTest" finished-at="2026-06-21T20:37:18 IST" duration-ms="10936" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.test.PartA_T2_LoginTest -->
+        </test-method> <!-- authenticationTest -->
+      </class> <!-- com.test.AuthenticationTest -->
+      <class name="com.test.PartB_NotesCRUDTest">
+        <test-method signature="notesCRUDTest()[pri:0, instance:com.test.PartB_NotesCRUDTest@172ca72b]" started-at="2026-06-21T20:37:18 IST" name="notesCRUDTest" finished-at="2026-06-21T20:37:38 IST" depends-on-methods="com.test.AuthenticationTest.authenticationTest" duration-ms="20493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notesCRUDTest -->
+      </class> <!-- com.test.PartB_NotesCRUDTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
